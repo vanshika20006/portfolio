@@ -1,0 +1,281 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Vanshika Sharma - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=Playwrite+IS:wght@100..400&amp;display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <link rel="shortcut icon" href="./images/portfolio.png" type="image/x-icon">
+</head>
+
+<body>
+  <!-- nav -->
+  <div class="navbar">
+      <div class="name"> Vanshika <span class="surname"> Sharma </span> </div>
+
+      <ul class="nav-links">
+          <li><a href="#home"> HOME </a></li>
+          <li><a href="#about"> ABOUT </a></li>
+          <li><a href="#work"> WORK </a></li>
+          <li><a href="#contact"> CONTACT</a></li>
+      </ul>
+  </div>
+
+  <div class="wrapper">
+
+      <!-- hero section -->
+      <div class="hero-section flex" id="home">
+          <div class="hero-section-desc">
+              <h1> Hi , <br> My name is <span class="hero-section-name"> Vanshika </span> </h1>
+              <p class="hero-section-p"> I'm <span id="text">UI/UX Desig</span><span class="typed-cursor" aria-hidden="true">|</span> </p>
+              <p class="hero-section-description">&amp; a strong foundation in both
+                  <span id="tech"> front-end </span><br> and <span id="tech"> back-end </span> technologies.
+              </p>
+              <button class="explore-btn"><i class="fa-solid fa-compass  explore-compass"></i> Explore</button>
+              <button class="get-in-touch-btn"> <a href="#contact"> Get in touch </a></button>
+          </div>
+          <div class="image">
+              <div class="dot-grid"></div>
+              <img src="./gdg_portfolio_session25/images/Profile.jpeg" class="hero-profile-img">
+          </div>
+      </div>
+
+      <!-- Technologies section -->
+      <div class="skill-section">
+          <h1 class="skill-section-heading">Skills</h1>
+          <div class="skill-section-desc flex">
+              <h2 class="frontend-part tab active-tab" data-target="skill-frontend">Frontend</h2>
+              <h2 class="backend-part tab" data-target="skill-backend">Backend &amp; Database</h2>
+              <h2 class="other-part tab" data-target="skill-other">Other Tools</h2>
+          </div>
+
+          <div class="skills-container">
+              <div class="skill-frontend flex">
+                  <div class="flex skill">
+                      <h4>HTML</h4>
+                      <img src="./gdg_portfolio_session25/images/frontend/html.webp" alt="HTML">
+                  </div>
+                  <div class="flex skill">
+                      <h4>CSS</h4>
+                      <img src="./gdg_portfolio_session25/images/frontend/css.webp" alt="CSS">
+                  </div>
+                  <div class="flex skill">
+                      <h4>JavaScript</h4>
+                      <img src="./gdg_portfolio_session25/images/frontend/Js.webp" alt="JavaScript">
+                  </div>
+                  <div class="flex skill">
+                      <h4>React</h4>
+                      <img src="./gdg_portfolio_session25/images/frontend/react.webp" alt="React">
+                  </div>
+                  <div class="flex skill">
+                      <h4>Tailwind</h4>
+                      <img src="./gdg_portfolio_session25/images/tailwind.webp" alt="Tailwind CSS">
+                  </div>
+                  <div class="flex skill">
+                      <h4>Bootstrap</h4>
+                      <img src="./gdg_portfolio_session25/images/bootstrap.webp" alt="Bootstrap">
+                  </div>
+              </div>
+
+              <div class="skill-backend flex active">
+                  <div class="flex skill">
+                      <h4>Node.Js</h4>
+                      <img src="./gdg_portfolio_session25/images/backend/node.webp" alt="Node.js">
+                  </div>
+                  <div class="flex skill">
+                      <h4>Express.Js</h4>
+                      <img src="./gdg_portfolio_session25/images/backend/express.webp" alt="Express">
+                  </div>
+                  <div class="flex skill">
+                      <h4>SQL</h4>
+                      <img src="./gdg_portfolio_session25/images/backend/sql.webp" alt="SQL">
+                  </div>
+                  <div class="flex skill">
+                      <h4>MongoDB</h4>
+                      <img src="./gdg_portfolio_session25/images/backend/mongodb.webp" alt="MongoDB">
+                  </div>
+              </div>
+
+              <div class="skill-other flex active">
+                  <div class="flex skill">
+                      <h4>Figma</h4>
+                      <img src="./gdg_portfolio_session25/images/figma.webp" alt="Figma">
+                  </div>
+                  <div class="flex skill">
+                      <h4>Git &amp; Github</h4>
+                      <img src="./gdg_portfolio_session25/images/github.webp" alt="GitHub">
+                  </div>
+                  <div class="flex skill">
+                      <h4>Postmam</h4>
+                      <img src="./gdg_portfolio_session25/images/postman.webp" alt="Postman">
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- project -->
+      <div class="project-section" id="work">
+          <h1 class="project-section-heading">Projects</h1>
+
+          <div class="carousel">
+              <!-- Carousel Item 1 -->
+              <div class="carousel-item">
+
+                <div class="project-card">
+                  <img src="./gdg_portfolio_session25/images/image.png" class="project-img" alt="E-commerce Website" loading="lazy">
+                  <div class="project-content">
+                      <h2>Nagar Nigam Map</h2>
+                      <p class="project-content-desc">
+                        The Nagar Nigam App is a digital platform developed to improve the efficiency, accessibility, and transparency of municipal services  
+                      </p>
+                      <h3>Developed with:</h3>
+                      <ul class="project-techno">
+                          <li class="html">HTML</li>
+                          <li class="css">CSS</li>
+                          <li class="js">JS</li>
+                      </ul>
+                      <div class="project-links">
+                          <a href="#" class="github-link" target="_blank">
+                              <img src="./gdg_portfolio_session25/images/github.webp" alt="GitHub">
+                          </a>
+                          <a href="#" class="live-link" target="_blank">
+                              <img src="./gdg_portfolio_session25/images/web.webp" alt="Live Demo">
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <div class="project-card">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240125180753/Screenshot-2024-01-25-125829.jpg" class="project-img" alt="Stock Market Portfolio App" loading="lazy">
+                <div class="project-content">
+                    <h2>Weather App</h2>
+                    <p class="project-content-desc">
+                      A Weather API project fetches real-time weather data for any location, providing users forecasts, and other meteorological information
+                    </p>
+                    <h3>Developed with:</h3>
+                    <ul class="project-techno">
+                        <li class="html">HTML</li>
+                        <li class="css">CSS</li>
+                        <li class="js">JavaScript</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="#" class="github-link" target="_blank">
+                            <img src="./gdg_portfolio_session25/images/github.webp" alt="GitHub">
+                        </a>
+                        <a href="#" class="live-link" target="_blank">
+                            <img src="./gdg_portfolio_session25/images/web.webp" alt="Live Demo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+                  
+                  
+
+              </div>
+
+              <!-- Carousel Item 2 -->
+              <div class="carousel-item">
+
+                <div class="project-card">
+                  <img src="./gdg_portfolio_session25/images/project-01.webp" class="project-img" alt="Stock Market Portfolio App" loading="lazy">
+                  <div class="project-content">
+                      <h2>Stock Market Portfolio App</h2>
+                      <p class="project-content-desc">
+                          An application to track and manage your stock investments.
+                      </p>
+                      <h3>Developed with:</h3>
+                      <ul class="project-techno">
+                          <li class="html">HTML</li>
+                          <li class="css">CSS</li>
+                          <li class="js">JavaScript</li>
+                      </ul>
+                      <div class="project-links">
+                          <a href="https://github.com/vanshika20006/stockmarketportfolio" class="github-link" target="_blank">
+                              <img src="./gdg_portfolio_session25/images/github.webp" alt="GitHub">
+                          </a>
+                          <a href="#" class="live-link" target="_blank">
+                              <img src="./gdg_portfolio_session25/images/web.webp" alt="Live Demo">
+                          </a>
+                      </div>
+                  </div>
+              </div>
+
+                  <div class="project-card">
+                      <img src="https://assets.upstox.com/content/assets/images/cms/202451/Amazon%20logo.png" class="project-img" alt="E-commerce Website" loading="lazy">
+                      <div class="project-content">
+                          <h2>Amazon Clone</h2>
+                          <p class="project-content-desc">
+                            An Amazon dummy project simulates core functionalities like product browsing, adding to cart, and checkout to replicate an e-commerce experience
+                          </p>
+                          <h3>Developed with:</h3>
+                          <ul class="project-techno">
+                              <li class="react">React</li>
+                              <li class="mongodb">MongoDB</li>
+                              <li class="nodejs">Node.js</li>
+                          </ul>
+                          <div class="project-links">
+                              <a href="#" class="github-link" target="_blank">
+                                  <img src="./gdg_portfolio_session25/images/github.webp" alt="GitHub">
+                              </a>
+                              <a href="#" class="live-link" target="_blank">
+                                  <img src="./gdg_portfolio_session25/images/web.webp" alt="Live Demo">
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                  
+
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="footer flex" id="contact">
+      <div class="footer-left">
+          <div class="name">Vanshika <span class="surname">Sharma</span></div>
+          <p>© 2025 Vanshika Sharma. All rights reserved.</p>
+      </div>
+      <div class="footer-right">
+          <a href="https://www.linkedin.com/in/vanshika-sharma-a40227280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank" class="social-link">
+              <img src="./gdg_portfolio_session25/images/linkedIN.webp" alt="LinkedIn" class="social-icon">
+          </a>
+          <a href="https://leetcode.com/u/Vanshika_20067/" target="_blank" class="social-link">
+              <img src="./gdg_portfolio_session25/images/leetcode.webp" alt="LeetCode" class="social-icon">
+          </a>
+          <a href="https://github.com/vanshika20006?tab=repositories" target="_blank" class="social-link">
+              <img src="./gdg_portfolio_session25/images/github.webp" alt="GitHub" class="social-icon">
+          </a>
+      </div>
+  </footer>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="script.js"></script><style type="text/css" data-typed-js-css="true">
+      .typed-cursor{
+        opacity: 1;
+      }
+      .typed-cursor.typed-cursor--blink{
+        animation: typedjsBlink 0.7s infinite;
+        -webkit-animation: typedjsBlink 0.7s infinite;
+                animation: typedjsBlink 0.7s infinite;
+      }
+      @keyframes typedjsBlink{
+        50% { opacity: 0.0; }
+      }
+      @-webkit-keyframes typedjsBlink{
+        0% { opacity: 1; }
+        50% { opacity: 0.0; }
+        100% { opacity: 1; }
+      }
+    </style>
+
+
+</body></html>
